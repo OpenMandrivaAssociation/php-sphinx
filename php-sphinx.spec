@@ -4,7 +4,7 @@
 
 Summary:	Client extension for Sphinx
 Name:		php-%{modname}
-Version:	0.1.0
+Version:	0.2.0
 Release:	%mkrel 1
 Group:		Development/PHP
 License:	PHP License
@@ -79,4 +79,3 @@ rm -rf %{buildroot}
 %doc package*.xml CREDITS
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/php.d/%{inifile}
 %attr(0755,root,root) %{_libdir}/php/extensions/%{soname}
-
