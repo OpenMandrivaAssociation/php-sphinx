@@ -8,7 +8,7 @@ Version:	1.2.0
 Release:	%mkrel 2
 Group:		Development/PHP
 License:	PHP License
-URL:		http://pecl.php.net/package/sphinx/
+URL:		https://pecl.php.net/package/sphinx/
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 Requires(pre): rpm-helper
 Requires(postun): rpm-helper
